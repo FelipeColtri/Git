@@ -20,36 +20,36 @@
 > git add arquivo.quack
 
 - ### Salvar devinitivamente uma nova versão (sempre nescessário ao atulizar algo importante no repositório):  
-  > git commit -m "Um comentário muito pertinente"  
-    > -am "comentário"    *add e comenta*
+> git commit -m "Um comentário muito pertinente"  
+  -am "comentário"    *add e comenta*
 
 - ### Subir um ramo para um repositório ja existente:  
 > git remote add nomeRamo link  
-  > origin github.com/Usuario/Projeto.git
+  origin github.com/Usuario/Projeto.git
 
 - ### Subir um arquivo/pasta para o GitHub (upload e atualização dos arquivos):  
 > git push origin master
 
 - ### Ver a modificações do repositório (mostra todos os commits):  
 > git log  
-  > --oneline       *mostra em apenas uma linha cada commit*  
-  >	--graph         *mostra o grafo de ramos*  
-  >	--all           *mostra toda a arvore*
+  --oneline       *mostra em apenas uma linha cada commit*  
+  --graph         *mostra o grafo de ramos*  
+  --all           *mostra toda a arvore*
 
 - ### Mostra qual é o ramo que o projeto se encontra:  
 > git branch
 
 - ### Move entre os ramos:  
 > git checkout NumeroVersao  
-  > master 			*volta para o ramo principal*  
-  > -b NomeRamo           	*cria novo ramo herdando do ramo master*  
+  master 			*volta para o ramo principal*  
+  -b NomeRamo           	*cria novo ramo herdando do ramo master*  
 
 - ### Motra o que houve de mudanças no projeto (deve ser feito antes de add):  
 > git diff
 
 - ### Desfaz mudanças depois de add, mas antes do commit (remove última alteração no ramo):  
 > git reset HEAD  
-  > Ramo --hard NumeroVersao   
+  Ramo --hard NumeroVersao   
 
 - ### Sincronizar o repositório do GitHub para o Git local (deve estar vinculado):  
 > git pull
