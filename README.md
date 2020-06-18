@@ -20,8 +20,8 @@
 > git add arquivo.quack
 
 - ### Salvar devinitivamente uma nova versão (sempre nescessário ao atulizar algo importante no repositório):  
-> git commit -m "Um comentário muito pertinente"  
-             -am "comentário"         *add e comenta*
+  > git commit -m "Um comentário muito pertinente"  
+               -am "comentário"         *add e comenta*
 
 - ### Subir um ramo para um repositório ja existente:  
 > git remote add nomeRamo link  
