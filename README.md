@@ -18,14 +18,15 @@
 
 - ### Adicionar um arquivo no repositório (basicamente salva as modificações, mas não oficializa uma nova versão):  
 > git add arquivo.quack
+> git add -A
 
 - ### Salvar definitivamente uma nova versão (sempre necessário ao atualizar algo importante no repositório): 
 > git commit -m "Um comentário muito pertinente"  
-  -am "comentário"    *add e comenta*
+> git commit -am "add e comenta"
 
 - ### Subir um ramo para um repositório já existente:  
-> git remote add nomeRamo link  
-  origin github.com/Usuario/Projeto.git
+> git remote add <nomeRamo> <link>  
+> git remote add origin origin git@github.com:<usuário>/<repositório>.git
 
 - ### Subir um arquivo/pasta para o GitHub (upload e atualização dos arquivos):  
 > git push origin master
