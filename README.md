@@ -26,7 +26,7 @@
 
 - ### Subir um ramo para um repositório já existente:  
 > git remote add <nomeRamo> <link>  
-> git remote add origin origin git@github.com:<usuário>/<repositório>.git
+> git remote add origin git@github.com:<usuário>/<repositório>.git
 
 - ### Subir um arquivo/pasta para o GitHub (upload e atualização dos arquivos):  
 > git push origin master
