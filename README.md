@@ -42,8 +42,8 @@
 
 - ### Move entre os ramos:  
 > git checkout NumeroVersao  
-  master 			*volta para o ramo principal*  
-  -b NomeRamo           	*cria novo ramo herdando do ramo master*  
+> master 			*volta para o ramo principal*  
+> -b NomeRamo           	*cria novo ramo herdando do ramo master*  
 
 - ### Mostra o que houve de mudanças no projeto (deve ser feito antes de add):  
 > git diff
